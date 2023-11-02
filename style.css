@@ -1,0 +1,208 @@
+
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-bar-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    height: 64px;
+    background: #FFFFFF;
+}
+
+.nav-bar-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-top-mid {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    color: #616E82;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+    ;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-top-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #616E82;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 13px;
+    gap: 3px;
+}
+
+.nav-bar-bottom {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background: #05357E;
+    padding: 0px 40px;
+}
+
+.nav-bar-bottom-top {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    color: #FFFFFF99;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    left: 0px;
+    display: flex;
+    width: 100%;
+}
+
+.card-container {
+    background-image: url("web-d-3b.png");
+    width: 100%;
+    height: 300px;
+    padding: 0px 40px;
+}
+
+.card-icon {
+    color: #FFFFFF;
+    font-size: 9px;
+    margin-top: 80px;
+}
+
+.card-text {
+    color: #FFFFFF;
+    height: 100px;
+}
+
+.h2 {
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.h5 {
+    font-size: 16px;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.card-gold {
+    height: 300px;
+}
+
+.card-type {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    gap: 15px;
+    color: #05357E;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 68px;
+    background-color: #f7faff;
+    border: 1px solid transparent;
+    justify-content: left;
+    align-items: center;
+}
+
+.card-type-credit {
+    color: #05357E;
+    padding-left: 15px;
+}
+
+.card-type-debit {
+    color: #616e82;
+}
+
+.card-detail {
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card-detail-mid-bottom {
+    display: flex;
+    gap: 10px;
+}
+
+.card-detail-mid-bottom-header {
+    font-size: 9px;
+    color: #616e82;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.card-detail-mid-bottom-text {
+    font-size: 15px;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.card-detail-mid {
+    top: 0px;
+}
+
+p {
+    font-size: 13px;
+    color: #616e82;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.card-detail-bottom {
+    display: grid;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-size: 13px;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+button {
+    border-radius: 25px;
+    height: 50px;
+    width: 190px;
+    margin-top: 15px;
+}
+
+.apply {
+    color: #05357E;
+    background-color: #FFFFFF;
+    border: 1px solid #616E82;
+}
+
+.more {
+    color: #FFFFFF;
+    background-color: #05357E;
+    border: 1px solid #05357E;
+}
+
+input {
+    font-size: 15px;
+}
+
+.footer {
+
+    background-color: #0e1a2c;
+    color: #FFFFFF;
+    padding: 0px 40px;
+}
+
+.footer-detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.footer-phone {
+    padding-top: 15px;
+}
