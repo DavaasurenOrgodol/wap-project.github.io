@@ -1,9 +1,13 @@
-
+body{
+    margin: 0px;
+}
 .nav-bar {
     position: sticky;
     width: 100%;
     top: 0px;
     left: 0px;
+    z-index: 1;
+    margin: 0px;
 }
 
 .nav-bar-top {
@@ -42,11 +46,10 @@
 }
 
 .nav-bar-bottom {
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     height: 64px;
-    background: #05357E;
+    background-color: #05357E;
     padding: 0px 40px;
 }
 
@@ -111,6 +114,7 @@
     border: 1px solid transparent;
     justify-content: left;
     align-items: center;
+    z-index: 0;
 }
 
 .card-type-credit {
@@ -141,6 +145,7 @@
 }
 
 .card-detail-mid-bottom-text {
+    font-weight: 400;
     font-size: 15px;
     font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
