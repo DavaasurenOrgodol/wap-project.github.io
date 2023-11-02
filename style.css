@@ -7,13 +7,12 @@ body{
     top: 0px;
     left: 0px;
     z-index: 1;
-    margin: 0px;
 }
 
 .nav-bar-top {
     display: flex;
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 0px 70px;
     height: 64px;
     background: #FFFFFF;
 }
@@ -29,7 +28,6 @@ body{
     gap: 20px;
     color: #616E82;
     font-family: Helvetica Neue, Arial, Noto Sans, sans-serif;
-    ;
     font-size: 13px;
     justify-content: center;
     align-items: center;
@@ -50,7 +48,7 @@ body{
     justify-content: space-between;
     height: 64px;
     background-color: #05357E;
-    padding: 0px 40px;
+    padding: 0px 70px;
 }
 
 .nav-bar-bottom-top {
@@ -74,7 +72,7 @@ body{
     background-image: url("web-d-3b.png");
     width: 100%;
     height: 300px;
-    padding: 0px 40px;
+    padding: 0px 70px;
 }
 
 .card-icon {
@@ -98,7 +96,7 @@ body{
 }
 
 .card-gold {
-    height: 300px;
+    height: 350px;
 }
 
 .card-type {
@@ -107,19 +105,31 @@ body{
     bottom: 40px;
     gap: 15px;
     color: #05357E;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
     height: 68px;
     background-color: #f7faff;
     border: 1px solid transparent;
     justify-content: left;
     align-items: center;
     z-index: 0;
+    border: 1px solid #e7ecf8;
+}
+.ccard{
+    /*border-left-style: solid;*/
+    border-color: #616E82;
+    padding: 15px;
+}
+.dcard{
+    padding: 15px;
 }
 
 .card-type-credit {
     color: #05357E;
     padding-left: 15px;
+    padding-top: 25px;
+    height: 45px;
+    background-color: #FFFFFF;
 }
 
 .card-type-debit {
@@ -128,7 +138,7 @@ body{
 
 .card-detail {
     display: flex;
-    padding: 0px 40px;
+    padding: 0px 70px;
     justify-content: space-between;
     gap: 50px;
 }
@@ -195,7 +205,7 @@ input {
 
     background-color: #0e1a2c;
     color: #FFFFFF;
-    padding: 0px 40px;
+    padding: 0px 70px;
 }
 
 .footer-detail {
